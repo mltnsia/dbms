@@ -1,0 +1,39 @@
+---
+title: "Library Application using MongoDB & MySQL"
+author: "BT2102 Group 17 20/21 Sem 2"
+date: '31 March 2021'
+output: html_document
+---
+
+<p style="color:darkred">**Configuration**</p>
+
+For usage of this project script,  
+1. Enter your password under mypass for every single file for the SQL connection  
+2. Enter your db name and collection name for the required files for MongoDB connection
+  
+(books.json file is used in this testing)
+
+
+<p style="color:darkred">**Admin User**</p>
+  
+Admin UserID = Admin1  
+Admin password = pass  
+
+<p style="color:darkred">**Borrow/Reserve/Extend**</p>
+  
+For any borrow/reserve/extend actions, double-click on the specific book row to make the respective buttons appear.  
+A success message will be prompted upon successful operation.  
+Click on the refresh button to see the changes.  
+
+<p style="color:darkred">**Search**</p>
+  
+Upon searching a book, double-click on the specific book row to view more details(image & description) about the book.  
+  
+
+<p style="color:darkred">**Fines**</p>
+  
+Update for fines is triggered through an event in mySQL that occurs on schedule every 1 day. 
+Meaning that a fine will increase by $1 each day as long as the book is not returned and overdue.  
+Update for deleting reserved books if there are unpaid fines for a member user is triggered through an event in mySQL that occurs on schedule every 10 seconds.
+
+
