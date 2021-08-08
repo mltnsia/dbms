@@ -1,7 +1,6 @@
 # Database Management System
 ## Library Application using MongoDB & MySQL
-### BT2102 (Data Management and Visualisation)
-### AY2020/2021 Semester 2
+### BT2102 (Data Management and Visualisation) AY20/21 Sem 2
 
 #### Configuration
 
